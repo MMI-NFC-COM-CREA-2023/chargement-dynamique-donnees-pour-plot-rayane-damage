@@ -29,5 +29,15 @@
             <figcaption>légende</figcaption>
         </figure>
     </main>
+
+    <script type="module">
+        import * as Plot from "https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm";
+
+        const penguinsResponse = await fetch("penguins.json");
+        const penguins = await penguinsResponse.json();
+        console.log(penguins)
+
+    </script>
 </body>
+
 </html>
