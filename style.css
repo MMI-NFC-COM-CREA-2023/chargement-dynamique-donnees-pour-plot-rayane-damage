@@ -1,5 +1,45 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 64px;
+}
+
+main{
+    padding-left: 25%;
+    padding-right: 25%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .graph{
     height: 50vh;
     width: 50vw;
-    background-color: aquamarine;
+}
+
+.header{
+    display: flex;
+    gap: 64px;
+    position: fixed;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 64px;
+    top: 0px;
+    margin: 0;
 }
